@@ -56,5 +56,4 @@ export class ProductsService {
     const product = this.products.splice(productIndex, 1)[0];
     return product;
   }
-
 }
